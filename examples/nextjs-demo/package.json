@@ -1,0 +1,25 @@
+{
+  "name": "kerf-nextjs-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "gen": "node ../../dist/cli/index.js batch ../assets --out ./components/kerf --force",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "e2e": "node e2e/verify.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^25.12.0",
+    "typescript": "^5"
+  }
+}

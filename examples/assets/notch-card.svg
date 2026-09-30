@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <path d="M24 0
+           L296 0
+           L320 24
+           L320 176
+           L296 200
+           L24 200
+           L0 176
+           L0 24
+           Z" />
+</svg>
